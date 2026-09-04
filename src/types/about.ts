@@ -1,8 +1,8 @@
-// src/types/about.ts
+import { IconType } from "react-icons";
 
 export interface Skill {
   name: string;
-  icon: string; // Ex: "SiTypescript", "FaReact" - para mapear no componente visual
+  icon: IconType; // Ex: "SiTypescript", "FaReact" - para mapear no componente visual
 }
 
 export interface SkillCategory {

@@ -1,4 +1,4 @@
-// src/types/home.ts
+import { IconType } from "react-icons";
 
 export interface Profile {
   name: string;
@@ -8,7 +8,7 @@ export interface Profile {
 export interface SocialLink {
   id: string;
   name: string;
-  icon: string; 
+  icon: IconType; 
   href: string;
 }
 
