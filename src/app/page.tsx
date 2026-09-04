@@ -1,9 +1,9 @@
-export const Home = () => {
+import HomeSection from "./sections/home-section";
+
+ const Home = () => {
   return(
-    <main>
-      <h1>
-        HELLO WORLD!
-      </h1>
+    <main className="min-h-dvh w-full">
+     <HomeSection/>
     </main>
   )
 }
