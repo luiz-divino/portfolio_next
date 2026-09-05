@@ -1,6 +1,6 @@
 // src/data/projectsData.ts
 import { Project } from "@/types/project";
-import { FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaNodeJs, FaReact } from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaCss } from "react-icons/fa6";
 import { RiNextjsLine } from "react-icons/ri";
@@ -49,8 +49,8 @@ export const featuredProjects: Project[] = [
     ],
     imageUrl: "/projects/acb.png",
     imageAlt: "Demonstração da nova interface responsiva do site ACBrasil",
-    projectUrl: "https://link-do-projeto.com",
-    githubUrl: "https://github.com/seu-usuario/acbrasil-redesign",
+    projectUrl: "https://grupo3-pfe-web-2026-1.vercel.app/",
+    githubUrl: "https://github.com/luiz-divino/grupo3_PFE.2026-1.react",
   },
   {
     id: "nutri",
@@ -101,7 +101,7 @@ export const featuredProjects: Project[] = [
     ],
     imageUrl: "/projects/pokedex.png",
     imageAlt: "Interface da Pokédex listando personagens em cartões",
-    projectUrl: "https://link-do-projeto.com",
-    githubUrl: "https://github.com/seu-usuario/pokedex",
+    projectUrl: "https://pokedex-blond-five.vercel.app/",
+    githubUrl: "https://github.com/luiz-divino/pokedex",
   },
 ];
