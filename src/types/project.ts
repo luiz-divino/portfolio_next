@@ -1,8 +1,10 @@
 // src/types/projects.ts
 
+import { IconType } from "react-icons";
+
 export interface TechIcon {
   name: string;
-  icon: string; // Ex: "SiReact", "SiTailwindcss", "SiGithub"
+  icon: IconType; // Ex: "SiReact", "SiTailwindcss", "SiGithub"
 }
 
 export interface Project {
