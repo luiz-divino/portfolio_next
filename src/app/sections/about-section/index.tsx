@@ -8,7 +8,7 @@ const About = () => {
   const { paragraphs, skills } = aboutData;
 
   return (
-    <section className="flex h-full pb-10 flex-col items-center max-w-5xl mx-auto lg:space-y-4">
+    <section id="about" className="flex h-full pb-10 flex-col items-center max-w-5xl mx-auto lg:space-y-4">
       <Title title="Sobre mim" />
       <div className="max-w-40 mx-auto">
         <Image

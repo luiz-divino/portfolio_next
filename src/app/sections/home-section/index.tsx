@@ -1,12 +1,15 @@
 import Hero from "@/components/home-components/hero-section";
 import { TbArrowBigDownLinesFilled } from "react-icons/tb";
 import { Floating3DParticles } from "@/components/ui/floating-3d-particles";
+import Link from "next/link";
 
 const HomeSection = () => {
   return (
     <section className="h-dvh flex flex-col w-full items-center justify-center relative overflow-hidden bg-linear-to-r from-emerald-500 to-emerald-900">
       <Hero />
+      <Link href={"/#about"}>
       <TbArrowBigDownLinesFilled size={40} color="white" className=" animate-bounce"/>
+      </Link>
       <Floating3DParticles color="#66bf40" />
     </section>
   );
