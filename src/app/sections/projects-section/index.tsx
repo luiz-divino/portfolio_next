@@ -3,7 +3,7 @@ import Title from "@/components/utilities/section-title";
 
 const Projects = () => {
     return(
-        <section className="flex flex-col max-w-7xl mx-auto">
+        <section id="projects" className="flex flex-col max-w-7xl mx-auto">
             <Title title="Projetos em Destaque"/>
             <section>
                 <Grid/>
