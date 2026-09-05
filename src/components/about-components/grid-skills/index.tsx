@@ -9,7 +9,7 @@ const Grid = ({ skills }: { skills: SkillCategory[] }) => {
         return (
           <div
             key={Skill.id}
-            className="border-none max-w-5xl h-3xl flex flex-col"
+            className="border-2 p-3 rounded-sm border-green-500 max-w-5xl w-full h-3xl flex flex-col shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1)]"
           >
             <div>
               <h1 className="text-[32px] text-center font-bold text-[#333333]">
@@ -31,7 +31,7 @@ const Grid = ({ skills }: { skills: SkillCategory[] }) => {
                   </span>
                 ))}
               </div>
-              <CardDescription className="max-w-xs text-[16px] text-center">
+              <CardDescription className="max-w-xs text-[16px] text-center text-[#333333]">
                 {Skill.description}
               </CardDescription>
             </CardContent>
