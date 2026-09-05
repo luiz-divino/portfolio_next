@@ -12,6 +12,7 @@ const About = () => {
       <Title title="Sobre mim" />
       <div className="max-w-40 mx-auto">
         <Image
+        unoptimized
           src={me}
           priority
           alt="Foto do desenvolvedor Luiz Fernando"
