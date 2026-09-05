@@ -20,7 +20,7 @@ const About = () => {
           className="w-full h-auto aspect-square object-cover rounded-full shadow-xl bg-linear-to-r from-emerald-500 to-emerald-900"
         />
       </div>
-      <article className="space-y-1 text-[#424142] text-center pt-6 px-3">
+      <article className="space-y-1 text-[#333333] font-nunito text-center pt-6 px-3">
         {paragraphs.map((text) => (
           <p key={text}>{text}</p>
         ))}
