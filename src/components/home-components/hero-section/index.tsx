@@ -18,20 +18,20 @@ const Hero = () => {
               {socialLinks.map((skill) => (
                 <span
                   key={skill.name}
-                  className="rounded-full border border-white p-2 flex items-center justify-center text-2xl lg:text-4xl"
+                  className="rounded-full border border-white p-2 flex items-center justify-center text-2xl lg:text-4xl hover:bg-white"
                 >
-                  <skill.icon color="white" />
+                  <Link href={skill.href}>
+                    <skill.icon className="text-white hover:text-emerald-900" />
+                  </Link>
                 </span>
               ))}
             </div>
 
             <div className="space-x-6 text-center max-w-md mx-auto text-xl text-white">
               {pageNavigation.map((link) => (
-                <button key={link.href}>
-                  <Link  href={link.href}>
-                    {link.label}
-                  </Link>
-                </button>
+                <span key={link.href}>
+                  <Link href={link.href}>{link.label}</Link>
+                </span>
               ))}
             </div>
           </div>
