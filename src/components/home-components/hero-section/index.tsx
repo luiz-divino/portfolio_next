@@ -8,7 +8,7 @@ const Hero = () => {
         return (
           <div
             key={item.name}
-            className="flex flex-col z-10 font-rubik font-semibold text-center gap-4"
+            className="flex flex-col z-10 font-rubik font-semibold text-center pt-9 gap-4"
           >
             <h1 className="text-5xl lg:text-[100px] text-white">{item.name}</h1>
             <p className="text-[20px] lg:text-[40px] text-white">
@@ -25,7 +25,7 @@ const Hero = () => {
               ))}
             </div>
 
-            <div className="space-x-6 text-center max-w-md mx-auto pt-4 text-xl text-white">
+            <div className="space-x-6 text-center max-w-md mx-auto text-xl text-white">
               {pageNavigation.map((link) => (
                 <button key={link.href}>
                   <Link  href={link.href}>
