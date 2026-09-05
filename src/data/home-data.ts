@@ -40,11 +40,11 @@ export const pageNavigation: PageLink[] = [
   {
     id: "about",
     label: "Sobre mim",
-    href: "/sobre",
+    href: "/#about",
   },
   {
     id: "projects",
     label: "Projetos",
-    href: "/projetos",
+    href: "/#projects",
   },
 ];
