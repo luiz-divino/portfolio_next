@@ -5,7 +5,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-
   --font-rubik: var(--font-rubik);
   --font-nunito: var(--font-nunito);
   --font-heading: var(--font-sans);
@@ -116,3 +115,6 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+*{
+  scroll-behavior: smooth;
+}
