@@ -33,7 +33,7 @@ export const featuredProjects: Project[] = [
     ],
     imageUrl: "/projects/personal_management.png",
     imageAlt: "Dashboard interativo do sistema financeiro",
-    projectUrl: "https://link-do-projeto.com",
+    projectUrl: "https://personalsystem.vercel.app",
     githubUrl: "https://github.com/seu-usuario/sistema-financeiro",
   },
   {
