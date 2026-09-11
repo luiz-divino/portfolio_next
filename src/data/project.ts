@@ -33,8 +33,8 @@ export const featuredProjects: Project[] = [
     ],
     imageUrl: "/projects/personal_management.png",
     imageAlt: "Dashboard interativo do sistema financeiro",
-    projectUrl: "https://link-do-projeto.com",
-    githubUrl: "https://github.com/seu-usuario/sistema-financeiro",
+    projectUrl: "https://personalsystem.vercel.app/",
+    githubUrl: "https://github.com/luiz-divino/personal_system_fullStack",
   },
   {
     id: "acbrasil-redesign",
