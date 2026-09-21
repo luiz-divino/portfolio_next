@@ -5,6 +5,12 @@ export const certifications = [
     instituicao: "DIO",
     code: "UVNAQWNR",
     img: "/certificates/fullstack.jpeg",
+    projetos : [
+      {
+        url: 'https://github.com/luiz-divino/personal_system_fullStack',
+        nome: 'sistema admin'
+      }
+    ]
   },
   {
     id: 2,
@@ -12,6 +18,12 @@ export const certifications = [
     instituicao: "IBMEC",
     code: null,
     img: "/certificates/ibmec-frontend.jpeg",
+     projetos : [
+      {
+        url: 'https://github.com/luiz-divino/grupo3_PFE.2026-1.react',
+        nome: 'acb institucional'
+      }
+    ]
   },
   {
     id: 3,
@@ -19,6 +31,12 @@ export const certifications = [
     instituicao: "EDULIV",
     code: null,
     img: "/certificates/frontend.jpeg",
+      projetos : [
+      {
+        url: 'https://github.com/luiz-divino/grupo3_PFE.2026-1.react',
+        nome: 'acb institucional'
+      }
+    ]
   },
   {
     id: 4,
@@ -26,6 +44,12 @@ export const certifications = [
     code: "SQJHFGY0",
     instituicao: "DIO",
     img: "/certificates/git.jpeg",
+      projetos : [
+    {
+        url: '/#projects',
+        nome: 'TODOS'
+      },
+    ]
   },
   {
     id: 5,
@@ -33,6 +57,16 @@ export const certifications = [
     code: "W2QIU7TE",
     instituicao: "DIO",
     img: "/certificates/node-typescript.jpeg",
+     projetos : [
+       {
+        url: 'https://github.com/luiz-divino/personal_system_fullStack',
+        nome: 'sistema admin'
+      },
+       {
+        url: 'https://github.com/luiz-divino/nutrition',
+        nome: 'nutricionista'
+      },
+    ]
   },
   {
     id: 6,
@@ -40,5 +74,19 @@ export const certifications = [
     code: "41JQMKGR",
     instituicao: "DIO",
     img: "/certificates/react-typescript.jpeg",
+     projetos : [
+     {
+        url: 'https://github.com/luiz-divino/personal_system_fullStack',
+        nome: 'sistema admin'
+      },
+      {
+        url: 'https://github.com/luiz-divino/nutrition',
+        nome: 'nutricionista'
+      },
+      {
+        url: 'https://github.com/luiz-divino/showroom_shine_react',
+        nome: 'showroom'
+      },
+    ]
   },
 ];
