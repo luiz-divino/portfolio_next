@@ -27,7 +27,7 @@ export const CardCertificate = ({ certificate }: CertificateProps) => {
     <div className="w-[360px] lg:w-96 max-w-96 ">
       <CardContent>
         <CardHeader className="bg-emerald-200 h-20 lg:h-17 text-center flex flex-col items-center justify-center">
-          <CardTitle className="px-3 font-nunito font-semibold">
+          <CardTitle className="px-3 font-rubik font-semibold">
             {certificate.title}
           </CardTitle>
             <p className="font-rubik">{certificate.instituicao}</p>
