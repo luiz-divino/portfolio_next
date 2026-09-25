@@ -39,7 +39,7 @@ const Grid = () => {
                   alt={project.imageAlt}
                   width={600}
                   height={600}
-                  className="w-full h-auto object-cover rounded-sm"
+                  className={cn("w-full h-auto object-cover rounded-sm", project.id == 'pib' && " brightness-50")}
                 />
               </div>
             </section>
