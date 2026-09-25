@@ -1,7 +1,7 @@
 // src/data/projectsData.ts
 import { Project } from "@/types/project";
 import { FaNodeJs, FaReact } from "react-icons/fa";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandFramerMotion, TbSql } from "react-icons/tb";
 import { FaCss } from "react-icons/fa6";
 import { RiNextjsLine } from "react-icons/ri";
 import {
@@ -18,10 +18,27 @@ import {
 
 export const featuredProjects: Project[] = [
   {
+    id: "pib",
+    title: "Sistema admin PIB",
+    description:
+      "(Em construção) - Plataforma de gestão administrativa para igreja. Contará com sistema completo de autenticação, permissão por cargo, registros de eventos e dados financeiros com dashboard. Além disso, a arquitetura do projeto foca em escalabilidade e manutenção, usando uma arquitetura baseada em abstrações para evitar acoplamento.",
+      technologies: [
+      { name: "Node.js", icon: FaNodeJs },
+      { name: "Express", icon: SiExpress },
+      { name: "Sql", icon: TbSql },
+      { name: "PostgreSQL", icon: SiPostgresql },
+      { name: "TypeScript", icon: SiTypescript },
+    ],
+    imageUrl: "/projects/under_construction.jpg",
+    imageAlt: "Dashboard interativo do sistema financeiro",
+    projectUrl: "https://github.com/luiz-divino/igrejabaptista-api",
+    githubUrl: "https://github.com/luiz-divino/igrejabaptista-api",
+  },
+  {
     id: "sistema-financeiro",
     title: "Sistema Financeiro & Admin",
     description:
-      "Plataforma de gestão administrativa e financeira construída com foco em segurança e usabilidade. Conta com sistema completo de registro, autenticação de usuários, controle de permissões e dashboards dinâmicos para acompanhamento de despesas e depósitos.",
+      "Plataforma de gestão administrativa e financeira construída com foco em segurança e usabilidade. Conta com sistema completo de registro, autenticação de usuários, controle de permissões e dashboards dinâmicos para acompanhamento de despesas e tarefas.",
     technologies: [
       { name: "Next.js", icon: RiNextjsLine },
       { name: "Node.js", icon: FaNodeJs },
