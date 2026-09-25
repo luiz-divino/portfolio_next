@@ -70,7 +70,7 @@ export const certifications = [
   },
   {
     id: 6,
-    title: "Conceitos avançados de React.js com Typescript",
+    title: "Conceitos avançados de React com Typescript",
     code: "41JQMKGR",
     instituicao: "DIO",
     img: "/certificates/react-typescript.jpeg",
